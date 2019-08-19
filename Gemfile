@@ -42,9 +42,12 @@ gem 'jquery-rails'
 gem 'font-awesome-rails' #  设定按钮符号标志
 gem 'carrierwave'   # 上传图片
 gem 'mini_magick'    # 上传图片
+gem 'acts_as_list'  # 后台商品调整排序
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+gem 'pry'
+gem 'awesome_rails_console'
 end
 
 group :development do
