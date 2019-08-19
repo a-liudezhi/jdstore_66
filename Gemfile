@@ -43,6 +43,7 @@ gem 'font-awesome-rails' #  设定按钮符号标志
 gem 'carrierwave'   # 上传图片
 gem 'mini_magick'    # 上传图片
 gem 'acts_as_list'  # 后台商品调整排序
+gem 'letter_opener', group: :development
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   # gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
