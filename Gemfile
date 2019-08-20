@@ -44,7 +44,9 @@ gem 'carrierwave'   # 上传图片
 gem 'mini_magick'    # 上传图片
 gem 'acts_as_list'  # 后台商品调整排序
 gem 'letter_opener', group: :development
-gem 'aasm' # 有限状态机
+gem 'aasm' # 有限状态机制
+gem 'carrierwave-qiniu'
+gem 'qiniu-rs'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   # gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
