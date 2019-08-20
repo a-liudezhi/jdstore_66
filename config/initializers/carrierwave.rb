@@ -1,7 +1,7 @@
 CarrierWave.configure do |config|
   config.storage             = :qiniu
-  config.qiniu_access_key    = ENV["GO7UAYcyqotFa1yu4WqoMXChhEkqYWCxcNkUmf2A"]
-  config.qiniu_secret_key    = ENV["IHroQ8RU2sGyX-H74Y7wVAu2Q_hUDtjNuunsSX6w"]
+  config.qiniu_access_key    = ENV["qiniu_access_key"]
+  config.qiniu_secret_key    = ENV["qiniu_secret_key"]
   config.qiniu_bucket        = ENV["qiniu_bucket"]
   config.qiniu_bucket_domain = ENV["qiniu_bucket_domain"]
   config.qiniu_block_size    = 4*1024*1024
