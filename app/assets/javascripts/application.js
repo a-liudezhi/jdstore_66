@@ -10,7 +10,7 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require local_time
+//  require local_time
 //= require jquery
 //= require bootstrap-sprockets
 //= require rails-ujs
