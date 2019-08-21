@@ -44,7 +44,7 @@ gem 'mini_magick'    # 上传图片
 gem 'acts_as_list'  # 后台商品调整排序
 gem 'letter_opener', group: :development
 gem 'aasm' # 有限状态机制
-gem 'carrierwave-qiniu', '~> 1.1.6'
+gem 'carrierwave-qiniu', '>= 1.1.5'
 gem 'qiniu-rs'
 gem 'figaro'  # 管理密码
 gem 'local_time'

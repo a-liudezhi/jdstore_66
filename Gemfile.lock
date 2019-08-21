@@ -280,7 +280,7 @@ DEPENDENCIES
   bootstrap-sass
   capybara (>= 2.15)
   carrierwave
-  carrierwave-qiniu (~> 1.1.6)
+  carrierwave-qiniu (>= 1.1.5)
   chromedriver-helper
   coffee-rails (~> 4.2)
   devise
